@@ -6,4 +6,8 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+tokio = "1.37.0"
 actix-web = "4"
+mongodb = "2.8.2"
+serde = "1.0.198"
+bson = "2.10.0"
