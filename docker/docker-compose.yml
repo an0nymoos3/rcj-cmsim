@@ -4,7 +4,7 @@ services:
         image: mongo
         ports:
             - '27017:27017'
-        container_name: competition-data
+        container_name: mongodb
         restart: always
         logging:
             options:
@@ -12,6 +12,8 @@ services:
         environment:
             - MONGO_INITDB_ROOT_USERNAME=CHANGEME
             - MONGO_INITDB_ROOT_PASSWORD=CHANGEME
+        volumes:
+            - /opt/rcj-data/db:/data/db
   #rcj-cms:
     #ports:
             # - 80:80
