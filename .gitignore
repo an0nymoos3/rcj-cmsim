@@ -17,3 +17,6 @@ Cargo.lock
 # Added by cargo
 
 /target
+
+# Ignore docker-compose files
+docker-compose.yml
