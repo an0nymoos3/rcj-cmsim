@@ -1,0 +1,22 @@
+version: '3.8'
+services:
+    mongo:
+        image: mongo:7
+        ports:
+            - '27017:27017'
+        container_name: competition-data
+        restart: always
+        logging:
+            options:
+                max-size: 1g
+        environment:
+            - MONGO_INITDB_ROOT_USERNAME=CHANGEME
+            - MONGO_INITDB_ROOT_PASSWORD=CHANGEME
+        image: mongo
+    rcj-cms:
+        ports:
+            # - 80:80
+            # - 443:443
+        environment:
+            - RCJ_CMS_ADMIN_USERNAME=CHANGEME
+            - RCJ_CMS_ADMIN_PASSWORD=CHANGEME
