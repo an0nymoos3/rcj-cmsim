@@ -10,12 +10,12 @@ solution to deploy and maintain.
 ## How to run
 This project is not yet setup to run properly. We will update these instructions once it is possible.
 
-###Building
+### Building
 ```
 docker build -t rcj-cmsim .
 ```
 
-###Running
+### Running
 Download and configure the docker-compose.yml file. Then simply run:
 ```
 docker compose up -d
