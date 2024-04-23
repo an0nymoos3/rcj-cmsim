@@ -9,7 +9,7 @@ solution to deploy and maintain.
 
 ## How to run
 We plan to upload the docker image eventually, but for now you will have to clone this repo.  
-Once cloned, simply run 
+Once cloned, navigate to `docker/` simply run 
 ```
 docker compose up -d
 ```
