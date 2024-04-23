@@ -1,5 +1,5 @@
 # RCJ-CMSIM
-RoboCupJunior Competition Management System Improved (RCJ CMSIM) 
+RoboCupJunior Competition Management System Improved (RCJ CMSim) 
 
 
 ## Purpose
