@@ -1,4 +1,4 @@
-# RCJ-CMSIM
+# RCJ-CMSim
 RoboCupJunior Competition Management System Improved (RCJ CMSim) 
 
 
